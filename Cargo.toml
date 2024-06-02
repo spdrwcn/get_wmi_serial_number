@@ -8,7 +8,7 @@ repository = "https://github.com/spdrwcn/get_wmi_serial_number"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 exclude = ["/.github/"]
-keywords = ["wmi", "bios", "serial number"]
+keywords = ["wmi", "bios", "serialnumber"]
 
 [dependencies]
 wmi = "0.13.3"
