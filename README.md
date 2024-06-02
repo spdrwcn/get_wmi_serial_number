@@ -8,8 +8,8 @@ Supported platforms: Any version of Windows that supports WMIC.
 use get_wmi_serial_number;
 
 fn main() {
-    let serialnumber = get_bios_serial_number();
-    println!("{}", serialnumber);
+    let serial_number = get_wmi_serial_number::get_bios_serial_number().unwrap();
+    println!("{}", serial_number);
 }
 ```
 
