@@ -1,6 +1,6 @@
 [package]
 name = "get_wmi_serial_number"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["rep-nop <h13317136163@163.com>"]
 edition = "2021"
 description = "wmi get bios serial number"
