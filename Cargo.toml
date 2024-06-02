@@ -1,0 +1,15 @@
+[package]
+name = "get_wmi_serial_number"
+version = "1.0.0"
+authors = ["rep-nop <h13317136163@163.com>"]
+edition = "2021"
+description = "wmi get bios serial number"
+repository = "https://github.com/spdrwcn/get_wmi_serial_number"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+exclude = ["/.github/"]
+keywords = ["wmi", "bios", "serial number"]
+
+[dependencies]
+wmi = "0.13.3"
+serde = "1.0.201"
